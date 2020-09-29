@@ -1,0 +1,35 @@
+
+.section-menu {
+  padding: 100px;
+  background: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.menu__itens {
+  padding: 20px;
+}
+.menu__itens__links--active a{
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.267);;
+  padding: 10px 20px;
+  border-radius: 11%;
+  text-decoration: none;
+  background: white;
+  color: rgb(11, 255, 243);
+}
+.menu__itens__links--active a:hover {
+  text-decoration: none;
+  color: rgb(11, 255, 243);
+
+}
+.menu__itens__links a{
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.267);;
+  padding: 10px 20px;
+  border-radius: 11%;
+  background: white;
+  color: black;
+}
+.menu__itens__links a:hover{
+  text-decoration: none;
+  color: rgb(11, 255, 243);
+}
